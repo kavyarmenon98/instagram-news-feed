@@ -1,0 +1,26 @@
+
+<div class="header-content">
+    <div style="    display: table;border-collapse: separate;border-spacing: 11px;">
+        <img src="/assets/propic.jpg" style="height: 35px;margin-left: 12px;border-radius: 40px;">
+        <span style="display: table-cell;vertical-align: middle;">{{resData.source.name}}</span>
+    </div>
+    <mat-icon id="menu-icon" aria-hidden="false"  aria-label="Example home icon" fontIcon="linear_scale"></mat-icon>
+</div>
+<div class="content-data">
+    <img id="post-image" [lazyLoad]="resData.urlToImage">
+    <div  class="container" >
+        <div >
+            <mat-icon aria-hidden="false"  id="icon-size"  aria-label="Example home icon" fontIcon="favorite_border"></mat-icon>
+            <mat-icon aria-hidden="false"  id="icon-size"  aria-label="Example home icon" fontIcon="chat_bubble_outline"></mat-icon>
+            <mat-icon aria-hidden="false"  id="icon-size"  aria-label="Example home icon" fontIcon="near_me"></mat-icon>
+        </div>
+       
+        <mat-icon aria-hidden="false"  id="icon-size"  aria-label="Example home icon" fontIcon="bookmark_border"></mat-icon>
+
+    </div>
+    <p style="padding: 12px;"> {{ showMore ? resData.description : (resData.description | slice: 0:50) }} <span *ngIf="!showMore" >...</span>
+        <span id="more-button" *ngIf="!showMore" (click)="onShow()">more</span>
+        <span id="more-button" *ngIf="showMore" (click)="onShow()">less</span>
+    </p>
+</div>
+

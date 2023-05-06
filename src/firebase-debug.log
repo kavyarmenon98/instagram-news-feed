@@ -1,0 +1,92 @@
+[debug] [2023-05-06T10:44:01.621Z] ----------------------------------------------------------------------
+[debug] [2023-05-06T10:44:01.624Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Lenovo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-06T10:44:01.625Z] CLI Version:   11.30.0
+[debug] [2023-05-06T10:44:01.626Z] Platform:      win32
+[debug] [2023-05-06T10:44:01.626Z] Node Version:  v18.16.0
+[debug] [2023-05-06T10:44:01.628Z] Time:          Sat May 06 2023 16:14:01 GMT+0530 (India Standard Time)
+[debug] [2023-05-06T10:44:01.629Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-06T10:44:01.725Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-06T10:44:01.726Z] > authorizing via signed-in user (kavyarmenon98@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Projects\insta-news-feed
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-05-06T10:44:53.791Z] Using project from CLI flag: instagramnewsfeed-b5e9a
+[debug] [2023-05-06T10:44:53.795Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/instagramnewsfeed-b5e9a [none]
+[debug] [2023-05-06T10:44:54.399Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/instagramnewsfeed-b5e9a 200
+[debug] [2023-05-06T10:44:54.399Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/instagramnewsfeed-b5e9a {"projectId":"instagramnewsfeed-b5e9a","projectNumber":"150784371198","displayName":"InstagramNewsFeed","name":"projects/instagramnewsfeed-b5e9a","resources":{"hostingSite":"instagramnewsfeed-b5e9a"},"state":"ACTIVE","etag":"1_d6c594a3-2915-4a24-8278-48d0beab5846"}
+[info] i  Using project instagramnewsfeed-b5e9a (InstagramNewsFeed) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote insta-news-feed/404.html 
+[debug] [2023-05-06T10:49:19.848Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-05-06T10:49:19.991Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-05-06T10:49:19.991Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.21.0","browserURL":"https://www.gstatic.com/firebasejs/9.21.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.21.0/firebase.tgz"},"live":{"version":"9.21","browserURL":"https://www.gstatic.com/firebasejs/live/9.21/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.21/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.21.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.21.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.21.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.21.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.21.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.21.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.21.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.21.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.21.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.21.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.21.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.21.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.21.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.21.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.21.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.21.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.21.0/firebase-firestore.memory.js"}}
+[info] +  Wrote insta-news-feed/index.html 
+[info] 
+[info] i  Detected a .git folder at D:\Projects\insta-news-feed 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=863669846&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-05-06T10:51:21.283Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-05-06T10:51:21.283Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-05-06T10:51:21.766Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-05-06T10:51:21.766Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-05-06T10:51:21.787Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-05-06T10:51:22.230Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-05-06T10:51:22.231Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"kavyarmenon98","id":67624970,"node_id":"MDQ6VXNlcjY3NjI0OTcw","avatar_url":"https://avatars.githubusercontent.com/u/67624970?v=4","gravatar_id":"","url":"https://api.github.com/users/kavyarmenon98","html_url":"https://github.com/kavyarmenon98","followers_url":"https://api.github.com/users/kavyarmenon98/followers","following_url":"https://api.github.com/users/kavyarmenon98/following{/other_user}","gists_url":"https://api.github.com/users/kavyarmenon98/gists{/gist_id}","starred_url":"https://api.github.com/users/kavyarmenon98/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kavyarmenon98/subscriptions","organizations_url":"https://api.github.com/users/kavyarmenon98/orgs","repos_url":"https://api.github.com/users/kavyarmenon98/repos","events_url":"https://api.github.com/users/kavyarmenon98/events{/privacy}","received_events_url":"https://api.github.com/users/kavyarmenon98/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":4,"public_gists":0,"followers":0,"following":0,"created_at":"2020-06-30T06:25:27Z","updated_at":"2021-12-01T12:26:28Z","private_gists":0,"total_private_repos":3,"owned_private_repos":3,"disk_usage":31733,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as kavyarmenon98 
+[info] 
+[debug] [2023-05-06T10:51:39.268Z] ----------------------------------------------------------------------
+[debug] [2023-05-06T10:51:39.272Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Lenovo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-06T10:51:39.274Z] CLI Version:   11.30.0
+[debug] [2023-05-06T10:51:39.274Z] Platform:      win32
+[debug] [2023-05-06T10:51:39.274Z] Node Version:  v18.16.0
+[debug] [2023-05-06T10:51:39.276Z] Time:          Sat May 06 2023 16:21:39 GMT+0530 (India Standard Time)
+[debug] [2023-05-06T10:51:39.276Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-06T10:51:39.366Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-06T10:51:39.367Z] > authorizing via signed-in user (kavyarmenon98@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Projects\insta-news-feed
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+

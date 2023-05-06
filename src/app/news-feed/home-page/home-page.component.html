@@ -1,0 +1,26 @@
+<div class="parent-container" >
+<!-- Header -->
+    <div  class="container" >
+        <div>
+            <img src="/assets/Instagram-Camera-Icon.png" style="height: 40px;margin-bottom: 9px;">
+            <img src="/assets/Instagram_logo.svg.png" style="height: 50px;margin-left: 12px;">
+        </div>
+        <mat-icon aria-hidden="false" id="icon-size"  aria-label="Example home icon" fontIcon="near_me"></mat-icon>
+    </div>
+    
+<!-- Content -->
+    <div *ngFor="let data of responseData">
+        <app-content-page [resData]="data" style="line-height: 26px !important;"></app-content-page>
+    </div>
+
+<!-- Footer -->
+    <div  class="container" >
+        <mat-icon aria-hidden="false"  id="icon-size"  aria-label="Example home icon" fontIcon="home"></mat-icon>
+        <mat-icon aria-hidden="false"  id="icon-size"  aria-label="Example home icon" fontIcon="search"></mat-icon>
+        <mat-icon aria-hidden="false"  id="icon-size"  aria-label="Example home icon" fontIcon="add_box"></mat-icon>
+        <mat-icon aria-hidden="false"  id="icon-size"  aria-label="Example home icon" fontIcon="favorite_border"></mat-icon>
+        <img src="/assets/propic.jpg" style="height: 35px;margin-left: 12px;border-radius: 40px;">
+
+    </div>
+ 
+</div>

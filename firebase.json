@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/insta-news-feed",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

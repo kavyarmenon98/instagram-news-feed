@@ -1,0 +1,20 @@
+.header-content{
+    display: flex;justify-content: space-between;align-items: center;
+
+}
+#menu-icon{
+    font-size: 25px;height: 25px;width: 25px;transform: rotate(90deg); 
+}
+#post-image{
+    height: 327px;margin-left: 12px;
+}
+#more-button{
+    color: #bababa;
+}
+.container{
+    display: flex;justify-content: space-between;align-items: center;background-color: #f3f3f3;
+    border-bottom: inset;padding: 11px 0px 3px 10px;
+}
+#icon-size{
+  margin: 0px 6px;
+}
